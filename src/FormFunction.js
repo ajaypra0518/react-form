@@ -9,7 +9,7 @@ function FormFunction(){
         mobile:""
     })
     let handleChange=(event)=>{
-       setData(preValue=>{
+       setData(preValue=>{ /////preValue has previous object i.e data
            return{
                ...preValue,
                [event.target.name]:event.target.value
